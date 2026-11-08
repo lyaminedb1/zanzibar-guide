@@ -4,7 +4,7 @@
 // entre les guillemets. Exemple : "https://whop.com/checkout/plan_XXXX"
 // Tant que ce champ est vide, les boutons affichent « Bientôt disponible ».
 // ============================================================
-const WHOP_CHECKOUT_URL = "https://whop.com/checkout/plan_gBcRqi0FP0OzR";
+const WHOP_CHECKOUT_URL = "https://whop.com/checkout/plan_vUACzq2nULYwG";
 
 // ------------------------------------------------------------
 // Boutons d'achat : les éléments avec la classe "buy" ET l'attribut data-buy
