@@ -7,11 +7,12 @@
 const WHOP_CHECKOUT_URL = "https://whop.com/checkout/plan_gBcRqi0FP0OzR";
 
 // ------------------------------------------------------------
-// Boutons d'achat : tous les éléments avec la classe "buy"
+// Boutons d'achat : les éléments avec la classe "buy" ET l'attribut data-buy
+// (le bouton de téléchargement de merci.html n'est pas concerné)
 // ------------------------------------------------------------
 function setupBuyButtons() {
   const ready = WHOP_CHECKOUT_URL.trim().startsWith("https://");
-  document.querySelectorAll(".buy").forEach((btn) => {
+  document.querySelectorAll(".buy[data-buy]").forEach((btn) => {
     if (ready) {
       btn.href = WHOP_CHECKOUT_URL.trim();
       btn.removeAttribute("aria-disabled");
