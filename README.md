@@ -4,7 +4,7 @@ Page de vente du guide de voyage Zanzibar de Get Lost DZ. Site statique (HTML, C
 
 ## Brancher le lien de paiement Whop
 
-1. Dans Whop : **Dashboard › Checkout links › + Create checkout link**, type **One-time**, prix **14,99 $**.
+1. Dans Whop : **Dashboard › Checkout links › + Create checkout link**, type **One-time**, prix **10 $**.
 2. Dans **Advanced options › Redirect after checkout**, mettez l'adresse de `merci.html` (par exemple `https://lyaminedb1.github.io/zanzibar-guide/merci.html`).
 3. Copiez le lien et collez-le dans `script.js`, ligne `WHOP_CHECKOUT_URL = "";`, entre les guillemets.
 
@@ -12,7 +12,7 @@ Les deux boutons « Acheter » (en haut et en bas de la page) utilisent ce même
 
 ## Changer le prix
 
-Le prix affiché sur la page est du texte : si vous changez le prix dans Whop, changez aussi `14,99 $` et `19,99 $` dans `index.html` (deux endroits : en haut et en bas).
+Le prix affiché sur la page est du texte : si vous changez le prix dans Whop, changez aussi `10 $` et `19,99 $` dans `index.html` (deux endroits : en haut et en bas).
 
 ## À compléter avant de lancer
 
